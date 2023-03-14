@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title>Bootstrap images and forms</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+	<style>
+		{
+			background-color: cyan;
+		}
+	</style>
+
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<ul class="navbar-nav">
+			<li class="nav-item"><a class="nav-link" href="https://www.porsche.com/pap/_philippines_/w">Homepage</a></li>
+			<li class="nav-item"><a class="nav-link" href="https://www.nike.com/ph/">About us</a></li>
+			<li class="nav-item"><a class="nav-link" href="https://www.mcdonalds.com.ph">Contact Us</a></li>
+		</ul>
+	</nav>
+
+	<table class="table table-striped table-bordered table-hover">
+		<tr>
+			<td class="bg-warning">Summary</td>
+			<td class="bg-warning">Fires can start anywhere and everywhere, especially here in the Philippines where we live in such a hot climate. Fires in this country are mostly caused by electronics such as electric fans being left plugged in, but in general, all electrics can start fires, and in here we will show you on how to avoid fires to keep you and your loved ones safe.</td>
+		</tr>
+		<tr>
+			<td class="bg-warning"><img src="https://www.shipleyenergy.com/wp-content/uploads/2021/01/iStock-525416877.jpg" height="200px" width="200px" class="img-thumbnail"></td>
+			<td class="bg-warning">Always unplug your appliances when you don't need to use them, not only does this save electricity, but also does this save you and your family from potential fires.</td>
+			
+		</tr>
+		<tr>
+			<td class="bg-warning"><img src="https://cdn3.vectorstock.com/i/1000x1000/53/27/flammable-sticker-black-fire-sign-danger-symbol-vector-43905327.jpg" height="200px" width="200px" class="img-thumbnail"></td>
+			<td class="bg-warning">Store your flammable items properly, and away from items that can probably cause a fire.</td>
+		</tr>
+		<tr>
+			<td class="bg-warning"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Campfire_Pinecone.png" height="200px" width="200px" class="img-thumbnail"></td>
+			<td class="bg-warning">Be cautious around open flames, make sure that any flammable items are far from fires, and if you're planning to start your own campfire, make sure that you do it in a safe place.</td>
+		</tr>
+		<tr>
+			<td class="bg-warning"><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Gas_stove.jpg" height="200px" width="200px" class="img-thumbnail"></td>
+			<td class="bg-warning">If you use a gas stove at home, make sure that you dont have any gas leakage in your gas tank, and if you do smell gas, dont turn on any lights or any electronics. Turn off all electronics or kill the electricity in your entire house is possible using a circuit breaker. Open your windows to let the gas fumes leave your home, once done you can now safely use your electronics once again, and always make sure that your gas tank is properly sealed.</td>
+		</tr>
+	</table>
+	<div class="container text-light bg-dark bg-warning">
+	<h2>Bootstrap Form</h2>
+	<form class="form-group bg-dark">
+		<div class="form-group">
+		</div>
+		
+		<div class="form-group bg-warning">
+		</div>
+		
+		Enter Firstname: <input type="text" name="fname" class="form-control">
+		Enter Lastname: <input type="text" name="lname" class="form-control">
+		Choose Country:
+		<select class="form-control">
+			<option>Philippines</option>
+			<option>Cambodia</option>
+			<option>Algeria</option>
+			<option>Other</option>
+		</select>
+		Choose Sport:
+		<select class="form-control">
+			<option>Football</option>
+			<option>UFC</option>
+			<option>Basketball</option>
+			<option>Other</option>
+		</select>
+		Choose Date Started:
+		<input type="date" name="enrolled" class="form-control">
+		Upload Profile Picture
+		<input type="file" name="records" class="form-control">
+		<br>
+		<input type="submit" value="SUBMIT" class="btn btn-success btn-block">
+		<input type="reset" value="CANCEL" class="btn btn-danger btn-block">
+	</form>
+</div>
+</body>
+</html>
